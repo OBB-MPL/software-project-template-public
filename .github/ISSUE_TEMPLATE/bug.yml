@@ -1,0 +1,52 @@
+name: Fehler melden
+description: Einen reproduzierbaren Fehler beschreiben.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Bitte vorhandene Issues prüfen. Keine Zugangsdaten oder personenbezogenen Daten eintragen. Für Schwachstellen gilt SECURITY.md."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Fehler und Auswirkung
+      description: Was funktioniert nicht, und wen betrifft es?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Schritte zur Reproduktion
+      placeholder: "1. Anwendung starten\n2. …\n3. Fehler beobachten"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version oder Commit
+      placeholder: "z. B. v0.1.0 oder Commit-ID; falls unbekannt, bitte angeben"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Umgebung
+      description: Relevantes Betriebssystem, Browser, Gerät und Konfiguration ohne Geheimnisse.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Zusätzliche Hinweise
+      description: Bereinigte Logs, Screenshots, Häufigkeit oder möglicher Workaround.

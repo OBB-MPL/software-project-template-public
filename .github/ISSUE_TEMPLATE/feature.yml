@@ -1,0 +1,48 @@
+name: Feature oder Aufgabe
+description: Funktion, Verbesserung, Dokumentation, Test oder Wartung vorschlagen.
+title: "[Task] "
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Art der Aufgabe
+      options:
+        - Feature
+        - Improvement
+        - Documentation
+        - Testing
+        - Maintenance
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Problem und Motivation
+      description: Welches Problem soll für wen gelöst werden?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Gewünschtes Ergebnis
+      description: Ziel und Umfang beschreiben; gegebenenfalls Nicht-Ziele benennen.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Akzeptanzkriterien
+      description: Woran lässt sich objektiv erkennen, dass die Aufgabe erledigt ist?
+      placeholder: "- [ ] Ein konkretes, prüfbares Ergebnis"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativen
+      description: Bestehende Möglichkeiten, Workarounds oder andere Lösungswege.
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Technische Hinweise und Abhängigkeiten
+      description: Verwandte Issues, Randbedingungen oder hilfreiche Quellen; Umsetzung noch offen lassen, soweit sinnvoll.

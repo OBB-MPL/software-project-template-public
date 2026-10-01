@@ -1,0 +1,16 @@
+# Betriebssystem und Editor-Backups
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Lokale Konfiguration und Zugangsdaten
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Technologieabhängige Build-, Cache- und Datenpfade beim Projektstart ergänzen.
