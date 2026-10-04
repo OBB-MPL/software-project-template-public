@@ -1,8 +1,10 @@
 # Mitwirken
 
-## Aufgaben und Entscheidungen
+## Aufgaben, Ideen und Entscheidungen
 
-GitHub Issues sind die zentrale Quelle für Aufgaben, Fehler, Anforderungen und Akzeptanzkriterien. Vor neuer Arbeit vorhandene Issues prüfen. Größere Themen in verknüpfte, unabhängig prüfbare Issues aufteilen. Verbesserungen, Dokumentation, Tests und Wartung können über das Feature-/Aufgabenformular erfasst werden.
+GitHub Issues sind die zentrale Quelle für konkrete Aufgaben, Fehler, Anforderungen und Akzeptanzkriterien. Vor neuer Arbeit vorhandene Issues prüfen. Größere Themen in verknüpfte, unabhängig prüfbare Issues aufteilen. Verbesserungen, Dokumentation, Tests und Wartung können über das Feature-/Aufgabenformular erfasst werden.
+
+Unreife oder unverbindliche spätere Produktideen gehören zunächst in [docs/ideas.md](docs/ideas.md). Größere grundsätzlich geplante Entwicklungsrichtungen werden in [docs/roadmap.md](docs/roadmap.md) festgehalten. Sobald aus einer Idee konkrete Arbeit wird, ist das zugehörige GitHub Issue die verbindliche Quelle.
 
 Das Project-Board visualisiert dieselben Issues. Keine parallelen TODO-Dateien oder verbindlichen Aufgabenlisten in Chats pflegen. Langlebiges Wissen liegt unter `docs/`; wesentliche technische Entscheidungen werden als [ADR](docs/decisions/README.md) festgehalten.
 
@@ -28,6 +30,12 @@ Das Project-Board visualisiert dieselben Issues. Keine parallelen TODO-Dateien o
 ## Releases
 
 Ein Milestone wie `v0.1` beschreibt geplanten Umfang. Nach erfüllten Akzeptanzkriterien, relevanten Tests und dokumentierten Einschränkungen den Changelog datieren, einen Tag wie `v0.1.0` auf den geprüften Commit setzen und daraus ein GitHub Release erstellen. Release Notes nennen Änderungen, bekannte Einschränkungen und erforderliche Schritte für Aktualisierungen. Den Milestone erst schließen, wenn der vereinbarte Umfang erledigt oder ausdrücklich neu zugeordnet wurde.
+
+Der vollständige Ablauf steht in [docs/development/release-process.md](docs/development/release-process.md).
+
+## Neues Projekt aus der Vorlage
+
+Nach **Use this template** die [Projekt-Bootstrap-Checkliste](docs/development/project-bootstrap.md) abarbeiten. Sie enthält insbesondere die Einstellungen, die nicht automatisch aus einem GitHub Template übernommen werden: Project, Labels, Milestones, Repository-Regeln, Secrets und Stack-spezifische CI-Prüfungen.
 
 ## Sicherheitsmeldungen
 
