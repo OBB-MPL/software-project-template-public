@@ -6,6 +6,8 @@ Schlanke, technologieunabhängige Vorlage für Markos Softwareprojekte. Sie verb
 
 Wiederverwendbare Projektvorlage; noch keine Anwendung. Nach dem Erstellen eines Projekts diesen Einstieg durch dessen Namen, Zweck, Zielgruppe und Reifegrad (Experiment, Alpha, Beta oder Stable) ersetzen.
 
+Die Vorlage wurde mit KI unter Anleitung von Marko Plesinac ausgearbeitet.
+
 ## Features
 
 - Einheitliche Dokumentationsstruktur mit Architecture Decision Records (ADRs).
@@ -94,4 +96,8 @@ Für Veröffentlichungen gilt zusätzlich der [Release-Prozess](docs/development
 
 ## License
 
-Diese Vorlage legt keine Lizenz für künftige Projekte fest. Vor externer Weitergabe die passende Lizenzentscheidung treffen, gegebenenfalls eine `LICENSE` ergänzen und diesen Abschnitt aktualisieren. Hinweise zum Umgang mit Schwachstellen stehen in [SECURITY.md](SECURITY.md).
+Diese Vorlage steht unter der [MIT-Lizenz](LICENSE). Sie darf auch kommerziell verwendet, angepasst und weitergegeben werden. Bei übernommenen Bestandteilen müssen die Copyright- und Lizenzhinweise erhalten bleiben.
+
+Für eigene Inhalte und Anwendungscode eines daraus erstellten Projekts kann eine andere Lizenz gewählt werden. Die Lizenzdatei und diesen Abschnitt beim Projektstart entsprechend prüfen und anpassen.
+
+Hinweise zum Umgang mit Schwachstellen stehen in [SECURITY.md](SECURITY.md).
